@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-06T10:24:01.890Z",
+        "line": 4,
+        "name": "User picks the sofa",
+        "description": "",
+        "id": "adding-products-to-the-shopping-cart;user-picks-the-sofa",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23960000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the main page search sofa at the bar",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_is_on_the_main_page_search_sofa_at_the_bar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user sees list of sofa",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_sees_list_of_sofa()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5515000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user picks 1rd item to the Shopping Cart",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_picks_1rd_item_to_the_shopping_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-06T10:24:31.462Z",
+        "line": 9,
+        "name": "User picks the table",
+        "description": "",
+        "id": "adding-products-to-the-shopping-cart;user-picks-the-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7933000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user on the main page search table at the bar",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_on_the_main_page_search_table_at_the_bar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user sees list of table",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_sees_list_of_tables()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5538000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user picks 3rd item to the Shopping Cart",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_picks_3rd_item_to_the_shopping_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding products to the Shopping Cart",
+    "description": "",
+    "id": "adding-products-to-the-shopping-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddingProductsToShoppingCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-06T10:24:44.940Z",
+        "line": 4,
+        "name": "Validate amount of products added to Shipping Cart",
+        "description": "",
+        "id": "validate-invalid-message-discount-functionality;validate-amount-of-products-added-to-shipping-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on the Shipping Cart page",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.user_on_the_shipping_cart_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User can see correct amount of products that added",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.user_can_see_correct_amount_of_products_that_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-06T10:24:44.951Z",
+        "line": 8,
+        "name": "User picks the table",
+        "description": "",
+        "id": "validate-invalid-message-discount-functionality;user-picks-the-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6809000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user on the main page search table at the bar",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_on_the_main_page_search_table_at_the_bar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Use a discount code",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.userClicksOnUseADiscountCode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User add discount code",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.user_add_discount_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click Apply discount",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.userClickApplyDiscount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Invalid coupon code error message is displayed",
+            "match": {
+              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.invalidCouponCodeErrorMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate invalid message discount functionality",
+    "description": "",
+    "id": "validate-invalid-message-discount-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ValidateDiscountFunctionality.feature",
+    "tags": []
+  }
+]
