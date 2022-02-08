@@ -15,5 +15,6 @@ public class javaTaskToSolve {
     public static void main(String[] args) {
         System.out.println(initialsOfName("Bruno Mars Yo"));
         System.out.println(initialsOfName("Bruno Mars"));
+
     }
 }
