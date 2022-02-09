@@ -26,6 +26,8 @@ public class ShoppingCartPage extends BasePage {
     public WebElement inputDiscountCode;
     @FindBy(linkText = "You've added an invalid coupon code. Please try again. ")
     public WebElement invalidCouponMsg;
+    @FindBy(linkText = "Shopping bag")
+    public WebElement shoppingCartBtn;
 
     public String fakerData(){
     Faker fakerData = new Faker();

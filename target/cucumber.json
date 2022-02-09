@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-06T10:24:01.890Z",
+        "start_timestamp": "2022-02-09T06:58:39.136Z",
         "line": 4,
         "name": "User picks the sofa",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23960000000,
+              "duration": 19624000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,32 +25,27 @@
           },
           {
             "result": {
-              "status": "passed"
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cbutton type\u003d\"button\" class\u003d\"range-revamp-btn range-revamp-btn--small range-revamp-btn--icon-emphasised range-revamp-product-compact__add-to-cart-button button__add-to-cart\" aria-label\u003d\"Add to bag\"\u003e...\u003c/button\u003e is not clickable at point (543, 56). Other element would receive the click: \u003cbutton id\u003d\"PRICE\" aria-haspopup\u003d\"true\" class\u003d\"pill-button small trailing-icon\"\u003e...\u003c/button\u003e\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-6785ES8\u0027, ip: \u0027192.168.1.198\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\Khorsov\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 88ea65022c0ac50739d6ce06e574d936\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_picks_1rd_item_to_the_shopping_cart(ProductsToShoppingCart.java:42)\r\n\tat ✽.the user picks 1rd item to the Shopping Cart(file:///C:/NewProjectIkeaTest/src/test/resources/features/AddingProductsToShoppingCart.feature:6)\r\n",
+              "duration": 4205000000,
+              "status": "failed"
             },
             "line": 6,
-            "name": "the user sees list of sofa",
-            "match": {
-              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_sees_list_of_sofa()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5515000000,
-              "status": "passed"
-            },
-            "line": 7,
             "name": "the user picks 1rd item to the Shopping Cart",
             "match": {
               "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_picks_1rd_item_to_the_shopping_cart()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "name": "@product"
+          }
         ]
       },
       {
-        "start_timestamp": "2022-02-06T10:24:31.462Z",
-        "line": 9,
+        "start_timestamp": "2022-02-09T06:59:03.073Z",
+        "line": 8,
         "name": "User picks the table",
         "description": "",
         "id": "adding-products-to-the-shopping-cart;user-picks-the-table",
@@ -59,99 +54,9 @@
         "steps": [
           {
             "result": {
-              "duration": 7933000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "the user on the main page search table at the bar",
-            "match": {
-              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_on_the_main_page_search_table_at_the_bar()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "the user sees list of table",
-            "match": {
-              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_sees_list_of_tables()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5538000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "the user picks 3rd item to the Shopping Cart",
-            "match": {
-              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_picks_3rd_item_to_the_shopping_cart()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Adding products to the Shopping Cart",
-    "description": "",
-    "id": "adding-products-to-the-shopping-cart",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/AddingProductsToShoppingCart.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2022-02-06T10:24:44.940Z",
-        "line": 4,
-        "name": "Validate amount of products added to Shipping Cart",
-        "description": "",
-        "id": "validate-invalid-message-discount-functionality;validate-amount-of-products-added-to-shipping-cart",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User on the Shipping Cart page",
-            "match": {
-              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.user_on_the_shipping_cart_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User can see correct amount of products that added",
-            "match": {
-              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.user_can_see_correct_amount_of_products_that_added()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-06T10:24:44.951Z",
-        "line": 8,
-        "name": "User picks the table",
-        "description": "",
-        "id": "validate-invalid-message-discount-functionality;user-picks-the-table",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 6809000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-6785ES8\u0027, ip: \u0027192.168.1.198\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\Khorsov\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 88ea65022c0ac50739d6ce06e574d936\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy16.clear(Unknown Source)\r\n\tat newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_on_the_main_page_search_table_at_the_bar(ProductsToShoppingCart.java:54)\r\n\tat ✽.the user on the main page search table at the bar(file:///C:/NewProjectIkeaTest/src/test/resources/features/AddingProductsToShoppingCart.feature:9)\r\n",
+              "duration": 107000000,
+              "status": "failed"
             },
             "line": 9,
             "name": "the user on the main page search table at the bar",
@@ -162,56 +67,28 @@
           },
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
-            "name": "User clicks on Use a discount code",
+            "name": "the user picks 3rd item to the Shopping Cart",
             "match": {
-              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.userClicksOnUseADiscountCode()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User add discount code",
-            "match": {
-              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.user_add_discount_code()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User Click Apply discount",
-            "match": {
-              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.userClickApplyDiscount()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Invalid coupon code error message is displayed",
-            "match": {
-              "location": "newProjectIkeaTest.step_definitions.ValidateDiscountFunctionality.invalidCouponCodeErrorMessageIsDisplayed()"
+              "location": "newProjectIkeaTest.step_definitions.ProductsToShoppingCart.the_user_picks_3rd_item_to_the_shopping_cart()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@product"
           }
         ]
       }
     ],
-    "name": "Validate invalid message discount functionality",
+    "name": "Adding products to the Shopping Cart",
     "description": "",
-    "id": "validate-invalid-message-discount-functionality",
+    "id": "adding-products-to-the-shopping-cart",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/ValidateDiscountFunctionality.feature",
+    "uri": "file:src/test/resources/features/AddingProductsToShoppingCart.feature",
     "tags": []
   }
 ]

@@ -12,11 +12,12 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "newProjectIkeaTest/step_definitions",
-        dryRun = false
+        dryRun = false,
+        tags = "@product"
 
 
 )
-public class CukesRunner {
+public class CukesRunner_IKEA {
 }
 
 
