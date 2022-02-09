@@ -31,16 +31,16 @@ public class MainPage extends BasePage {
     @FindBy(xpath = "//input[@type='search']")
     public WebElement searchBar;
 
-    @FindBy(xpath = "//div[@data-ref-id][3]//div[@class='range-revamp-product-compact__image-wrapper']")
+    @FindBy(xpath = "//*[@id="search-results"]/div[3]/a/div")
     public WebElement productNumberThreeInList;
 
-    @FindBy(xpath = "//div[@data-ref-id][1]//div[@class='range-revamp-product-compact__image-wrapper']")
+    @FindBy(xpath = "//*[@id="search-results"]/div[1]/a/div")
     public WebElement productNumberOneInList;
 
-    @FindBy(xpath = "//div[@data-ref-id][1]//button[@type='button']")
+    @FindBy(xpath = "//*[@id="search-results"]/div[1]/section/div/button")
     public WebElement toShoppingCartBtn1;
 
-    @FindBy(xpath = "//div[@data-ref-id][3]//button[@type='button']")
+    @FindBy(xpath = "//*[@id="search-results"]/div[3]/section/div/button")
     public WebElement toShoppingCartBtn2;
 
 }
